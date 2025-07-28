@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react"
 import { Navbar, Nav, Container } from "react-bootstrap"
-import "./Sidebar.css"
+import "./SideBar.css"
 
 const Sidebar = () => {
   const [expanded, setExpanded] = useState(false)
