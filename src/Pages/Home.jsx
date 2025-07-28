@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ModernNavbar from '../Components/Sidebar/Sidebar';
+import Sidebar from '../Components/Sidebar/Sidebar';
 
 export const Home = () => {
     const [lang, setLang] = useState('en');
@@ -53,7 +53,7 @@ export const Home = () => {
 
     return (
         <>
-            <ModernNavbar />
+            <Sidebar />
             <button onClick={toggleLang} className='language'>
                 {content[lang].switchBtn}
             </button>

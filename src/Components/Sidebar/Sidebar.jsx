@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react"
 import { Navbar, Nav, Container } from "react-bootstrap"
 import "./Sidebar.css"
 
-const ModernNavbar = () => {
+const Sidebar = () => {
   const [expanded, setExpanded] = useState(false)
   const [scrolled, setScrolled] = useState(false)
   const navbarRef = useRef(null)
@@ -83,4 +83,4 @@ const ModernNavbar = () => {
   )
 }
 
-export default ModernNavbar
+export default Sidebar
